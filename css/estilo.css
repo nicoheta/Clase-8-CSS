@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family:serif
+}
+header{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+.nav{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #D93030;
+    padding: 7px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover{
+    opacity: 0.8;
+}
+.hero{
+    text-align: center;
+    padding: 50px;
+    background-color: #D93030;
+    color: white;
+    width: 97.4%;
+    margin: 0 auto;
+}
+.hero button{
+    background-color: #D94E67;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family:serif
+}
+.hero button:hover{
+    opacity: 0.8;
+}
+.hero a{
+    text-decoration: none;
+    color:white
+}
+.hero a:hover{
+    opacity: 0.8;
+}
+.empresa{
+    text-align: center;
+    padding: 50px;
+    background-color: #F2F2F2;
+    width: 97.4%;
+    margin: 0 auto;
+}
+.empresa h2{
+    margin-bottom: 20px;
+    color: #D9303E;
+}
+.empresa button{
+    display: block;
+    margin-right: auto;
+    margin-left: 0;
+    width: 100px;
+    background-color: #D94E67;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family:serif
+}
+.empresa button:hover{
+    opacity: 0.8;
+}
+.empresa a{
+    text-decoration: none;
+    color:white
+}
+.empresa a:hover{
+    opacity: 0.8;
+}
+.servicios{
+    padding: 50px;
+    background-color: #F2F2F2;
+    width: 97.4%;
+    margin: 0 auto;
+}
+.servicios h2{
+    margin-bottom: 20px;
+    background-color: #D9303E;
+    color: white;
+    padding: 10px;
+}
+.servicios button{
+    display: block;
+    margin-right: auto;
+    margin-left: 0;
+    width: 100px;
+    background-color: #D94E67;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family:serif
+}
+.servicios button:hover{
+    opacity: 0.8;
+}
+.servicios a{
+    text-decoration: none;
+    color:white
+}
+.servicios a:hover{
+    opacity: 0.8;
+}
+.galeria{
+    text-align: center;
+    padding: 50px;
+    background-color: #F2F2F2;
+    width: 97.4%;
+    margin: 0 auto;
+}
+.galeria h2{
+    margin-bottom: 50px;
+    padding: 20px;
+    color: white;
+    background-color: #D9303E;
+}
+table{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.galeria td{
+    padding: 20px 10px;
+}
+.galeria table img{
+    object-fit: cover;
+    display: block;
+    border: 5px solid #D97E7E;
+}
+.galeria button{
+    width: 100px;
+    background-color: #D94E67;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family:serif
+}
+.galeria button:hover{
+    opacity: 0.8;
+}
+.galeria a{
+    text-decoration: none;
+    color:white
+}
+.galeria a:hover{
+    opacity: 0.8;
+}
+.contacto{
+    text-align: center;
+    padding: 50px;
+    background-color: #D93030;
+    color: white;
+    width: 97.4%;
+    margin: 0 auto;
+}
+.contacto h2{
+    background-color: #D97E7E;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: white;
+}
+.contacto button{
+    width: 100px;
+    background-color: #D94E67;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family:serif
+}
+.contacto button:hover{
+    opacity: 0.8;
+}
+.contacto a{
+    text-decoration: none;
+    color:white
+}
+.contacto a:hover{
+    opacity: 0.8;
+}
+footer{
+    padding: 50px;
+    background-color: #D97E7E;
+    width: 97.4%;
+    margin: 0 auto;
+}
